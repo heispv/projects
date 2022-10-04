@@ -1,4 +1,4 @@
-# Project
+# Projects
 Here you can find the projects which have been written during different courses for Machine Learning
 
 ## Table of Contents
