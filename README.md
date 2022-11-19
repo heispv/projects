@@ -1,5 +1,5 @@
 # Projects
-Here you can find the projects which have been written during different courses for Machine Learning
+Below you will find the projects that I have written during my studies on ML
 
 ## Table of Contents
 
