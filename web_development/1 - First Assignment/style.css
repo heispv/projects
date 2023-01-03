@@ -1,0 +1,80 @@
+/* Selector {
+    Property: value
+} */
+
+body {
+    background-image: url("w1.jpg");
+    background-size: cover;
+}
+
+a {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    font:normal;
+    text-align: center;
+    border: 4px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    cursor: context-menu;
+    padding: 10px 0px 10px 0px;
+}
+
+ul {
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.46);
+    color: aliceblue;
+    font:normal;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    cursor: none;
+}
+
+.firstbottoms {
+    display: block;
+}
+
+h2 {
+    font-size: x-large;
+    color: red;
+    background-color: black;
+    text-align: center;
+    border: 3px solid red;
+    cursor: wait;
+    margin: 0px 200px 0px 200px;
+}
+
+p {
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.second {
+    background-color: rgba(177, 254, 111, 0.6);
+    font-size: medium;
+    border-radius: 3px;
+}
+
+.select:hover {
+    background-color: rgb(177, 254, 111);
+    font-size: larger;
+    font-family: 'Sevillana', cursive;
+}
+
+.picsecond {
+    float: left;
+}
+
+footer {
+    text-align: center;
+    color: red;
+}
