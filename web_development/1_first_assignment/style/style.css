@@ -3,7 +3,7 @@
 } */
 
 body {
-    background-image: url("w1.jpg");
+    background-image: url("../img/w1.jpg");
     background-size: cover;
 }
 
