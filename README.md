@@ -5,7 +5,7 @@ Below you will find the projects that I have written during my studies on ML
 
 ### Convolutional Neural Networks
 
-* [Steak Pizza](https://github.com/heispv/projects/blob/master/cnn/steak_pizza.ipynb) : For this project, which was part of Udemy's TensorFlow Zero to Mastery course, I used different pizza and stake images and then created some models to classify these two foods from each other.
+* [Steak Pizza](https://github.com/heispv/projects/blob/master/cnn/steak_pizza.ipynb) : I completed a project in which I utilized TensorFlow to classify pizza and steak images as part of Udemy's Zero to Mastery course. Through this project, I developed and trained a number of models to successfully differentiate between these two types of food
 
 * [MNIST](https://github.com/heispv/projects/blob/master/cnn/mnist.ipynb) : A common dataset among machine learning engineers is the MNIST dataset, so I used it to train a model for handwritten digit recognition.
 
