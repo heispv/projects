@@ -1,5 +1,5 @@
 # Projects
-Below you will find the projects that I have written during my studies on ML
+Listed below are a number of projects that I have completed as part of my studies in machine learning. These projects showcase my skills and knowledge in this field.
 
 ## Table of Contents
 
