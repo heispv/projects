@@ -3,6 +3,12 @@ Listed below are a number of projects that I have completed as part of my studie
 
 ## Table of Contents
 
+### AI for Medicine
+
+* [Chest X-Ray Medical Diagnosis](https://github.com/heispv/projects/blob/master/ai_for_medicine/ai_for_medical_diagnosis/first_week_programming_assignment/C1_W1_Assignment.ipynb) : I constructed a deep learning-based medical diagnosis system for chest X-rays. Utilizing a real-world X-ray dataset, we pre-processed the data and employed transfer learning to fine-tune a DenseNet model for image classification. To evaluate performance, we utilized the AUC metric for the ROC curve and employed GradCAMs technique to visualize the model's decision-making process by generating heatmaps that highlight important regions in the images for pathological condition prediction.
+
+![ai1](https://user-images.githubusercontent.com/102462222/211542892-4c10a122-cb14-4e2c-be53-ff3bd465e9ef.png)
+
 ### Convolutional Neural Networks
 
 * [Steak Pizza](https://github.com/heispv/projects/blob/master/cnn/steak_pizza.ipynb) : I completed a project in which I utilized TensorFlow to classify pizza and steak images as part of Udemy's Zero to Mastery course. Through this project, I developed and trained a number of models to successfully differentiate between these two types of food
