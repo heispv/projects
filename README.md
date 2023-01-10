@@ -20,7 +20,7 @@ Check out my Reinforcement Learning projects, where you can see how I apply the 
 
 ### Deep Reinforcement Learning Course by HuggingFace
 
-* [LunarLander Environment](https://github.com/heispv/projects/blob/master/reinforcement-learning/DeepRL_1st_assignment.ipynb) using PPO model
+* [LunarLander Environment](https://github.com/heispv/projects/blob/master/reinforcement-learning/DeepRL_1st_assignment.ipynb): In this project, I employed the PPO model to successfully address the Lunar Lander environment.
 
 https://user-images.githubusercontent.com/102462222/208900006-d65b6989-303c-4655-8aec-e73bbe234faf.mp4
 
