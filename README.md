@@ -19,12 +19,10 @@ Listed below are a number of projects that I have completed as part of my studie
 
 * [Food101](https://github.com/heispv/projects/blob/master/cnn/food101.ipynb) : I completed a project in which I used transfer learning to train a model for food classification using the EfficientNetB0 base model from TensorFlowHub. To reduce training time, I applied mixed precision techniques and only trained the feature extraction layer, without fine-tuning the other layers of the network. The final model achieved an accuracy of 70.6% on our dataset. This project allowed me to gain experience in utilizing transfer learning and mixed precision techniques to improve the performance of machine learning models.
 
-# Reinforcement Learning Projects
+### Reinforcement Learning Projects
 Check out my Reinforcement Learning projects, where you can see how I apply the latest techniques to solve interesting problems.
 
-## Table of Contents
-
-### Deep Reinforcement Learning Course by HuggingFace
+#### Deep Reinforcement Learning Course by HuggingFace
 
 * [LunarLander Environment](https://github.com/heispv/projects/blob/master/reinforcement-learning/DeepRL_1st_assignment.ipynb): In this project, I employed the PPO model to successfully address the Lunar Lander environment.
 
