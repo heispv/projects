@@ -1,5 +1,5 @@
 # Projects
-Listed below are a number of projects that I have completed as part of my studies in machine learning. These projects showcase my skills and knowledge in this field.
+Listed below are a number of projects that I have completed as part of my studies in machine learning. These projects showcase my skills and knowledge in this field. :smirk:
 
 ## AI for Medicine
 
