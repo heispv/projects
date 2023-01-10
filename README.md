@@ -30,4 +30,4 @@ https://user-images.githubusercontent.com/102462222/208900006-d65b6989-303c-4655
 
 * [Multi Armed Banidt](https://github.com/heispv/projects/tree/master/reinforcement-learning/multi_armed_bandit) : In this Folder I used different methods like [Epsilon greedy](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/epsilon_greedy.ipynb), [Optimistic initial value](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/optimistic_initial_value.ipynb) and [UCB1](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/ucb1.ipynb) to solve the multi armed bandit problem.
 
-* [Frozen Lake - Q Learning](https://github.com/heispv/projects/tree/master/reinforcement-learning/fronezlake_q_learning.py) : In this project I used Q Learning method to solve the Frozen Lake Environment problem.
+* [Frozen Lake - Q Learning](https://github.com/heispv/projects/tree/master/reinforcement-learning/fronezlake_q_learning.py) : In addressing the Frozen Lake Environment problem, I leveraged the Q-Learning approach in this project.
