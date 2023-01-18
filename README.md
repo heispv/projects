@@ -1,9 +1,9 @@
 # Projects
-Listed below are a number of projects that I have completed as part of my studies in machine learning. These projects showcase my skills and knowledge in this field. :smirk:
+Listed below are a number of projects that I have completed as part of my studies in machine learning. These projects showcase my skills and knowledge in this field.
 
 ## AI for Medicine
 
-* [Chest X-Ray Medical Diagnosis](https://github.com/heispv/projects/blob/master/ai_for_medicine/ai_for_medical_diagnosis/first_week_programming_assignment/C1_W1_Assignment.ipynb) : I constructed a deep learning-based medical diagnosis system for chest X-rays. By using a real-world X-ray dataset, we pre-processed the data and applyed transfer learning to fine-tune a DenseNet model for image classification. To evaluate performance, we used the AUC metric for the ROC curve and employed GradCAMs technique to visualize the model's decision-making process by generating heatmaps that highlight important regions in the images for pathological condition prediction.
+* [Chest X-Ray Medical Diagnosis](https://github.com/heispv/projects/blob/master/ai_for_medicine/ai_for_medical_diagnosis/first_week_programming_assignment/C1_W1_Assignment.ipynb) : I constructed a deep learning-based medical diagnosis system for chest X-rays. By using a real-world X-ray dataset, we pre-processed the data and applied transfer learning to fine-tune a DenseNet model for image classification. To evaluate performance, we used the AUC metric for the ROC curve and employed GradCAMs technique to visualize the model's decision-making process by generating heatmaps that highlight important regions in the images for pathological condition prediction.
 
 ![ai1](https://user-images.githubusercontent.com/102462222/211542892-4c10a122-cb14-4e2c-be53-ff3bd465e9ef.png)
 
