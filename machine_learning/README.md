@@ -1,13 +1,10 @@
-# Projects
-Listed below are a number of projects that I have completed as part of my studies in machine learning. These projects showcase my skills and knowledge in this field.
-
-## AI for Medicine
+# AI for Medicine
 
 * [Chest X-Ray Medical Diagnosis](https://github.com/heispv/projects/blob/master/ai_for_medicine/ai_for_medical_diagnosis/first_week_programming_assignment/C1_W1_Assignment.ipynb) : I constructed a deep learning-based medical diagnosis system for chest X-rays. By using a real-world X-ray dataset, we pre-processed the data and applied transfer learning to fine-tune a DenseNet model for image classification. To evaluate performance, we used the AUC metric for the ROC curve and employed GradCAMs technique to visualize the model's decision-making process by generating heatmaps that highlight important regions in the images for pathological condition prediction.
 
 ![ai1](https://user-images.githubusercontent.com/102462222/211542892-4c10a122-cb14-4e2c-be53-ff3bd465e9ef.png)
 
-## Convolutional Neural Networks
+# Convolutional Neural Networks
 
 * [Steak Pizza](https://github.com/heispv/projects/blob/master/cnn/steak_pizza.ipynb) : I completed a project in which I used TensorFlow to classify pizza and steak images as part of Udemy's Zero to Mastery course. Through this project, I developed and trained number of models to successfully classify these two types of food.
 
@@ -17,10 +14,10 @@ Listed below are a number of projects that I have completed as part of my studie
 
 * [Food101](https://github.com/heispv/projects/blob/master/cnn/food101.ipynb) : In this project I used transfer learning to train a model for food classification using the EfficientNetB0 as the base model from TensorFlowHub. To reduce training time, mixed precision techniques have been applied and only trained the feature extraction layer, without fine-tuning the other layers of the network. The final model achieved an accuracy of 70.6% on the test set.
 
-## Reinforcement Learning Projects
+# Reinforcement Learning Projects
 Check out my Reinforcement Learning projects, where you can see how I applied the latest techniques to solve these problems.
 
-### Deep Reinforcement Learning Course by HuggingFace
+## Deep Reinforcement Learning Course by HuggingFace
 
 * [LunarLander Environment](https://github.com/heispv/projects/blob/master/reinforcement-learning/DeepRL_1st_assignment.ipynb): In this project, I employed the PPO model to solve the Lunar Lander environment.
 
