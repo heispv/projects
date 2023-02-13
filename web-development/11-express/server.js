@@ -2,8 +2,13 @@ import express from "express";
 
 const app = express()
 
+app.use((req, res, next) => {
+  console.log("<h1>Hello</h1>");
+  next();
+})
+
 app.get('/', (req, res) => {
-  res.send("we are in root")
+  res.send("<h1>we are in root</h1>")
 })
 
 app.get('/profile', (req, res) => {
