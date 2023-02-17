@@ -31,9 +31,9 @@ class App extends React.Component {
 
   loadUser = (data) => {
     this.setState({user: {
-      id: data.user,
-      name: data.id,
-      email: data.name,
+      id: data.id,
+      name: data.name,
+      email: data.email,
       entries: data.entries,
       joined: data.joined
     }})
@@ -44,8 +44,6 @@ class App extends React.Component {
     const image = document.getElementById("inputImage")
     const width = Number(image.width);
     const height = Number(image.height);
-    console.log(faceBoundingBox);
-    console.log(width, height);
     return {
       leftCol: faceBoundingBox.left_col * width,
       topRow: faceBoundingBox.top_row * height,
@@ -64,7 +62,6 @@ class App extends React.Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input})
-    
     const USER_ID = 'heispv';
     const PAT = '4081350e80244ae89d9826f80f117210';
     const APP_ID = 'my-first-application';
@@ -98,7 +95,24 @@ class App extends React.Component {
     };
 
     fetch("https://api.clarifai.com/v2/models/" + MODEL_ID + "/versions/" + MODEL_VERSION_ID + "/outputs", requestOptions)
-        .then(response => response.json())
+        .then(response => {
+
+          if (response) {
+            fetch('http://localhost:3001/image', {
+              method: 'put',
+              headers: {'Content-type': 'application/json'},
+              body: JSON.stringify({
+                id: this.state.user.id
+              })
+            })
+            .then(response => response.json())
+            .then(entries => {
+              this.setState(Object.assign(this.state.user, { entries: entries }))
+            })
+          }
+
+          return (response.json())
+        })
         .then(result => this.displayFaceBox(this.calculateFaceLocation(result)))
         .catch(error => console.log('error', error));
   }
@@ -114,13 +128,13 @@ class App extends React.Component {
           <ParticlesBackground />
         </div>
         {this.state.route === "signin"
-          ? <Signin onRouteChange={this.onRouteChange}/>
+          ? <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
           : (this.state.route === "register"
               ? <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
               : <div>
                   <Navigation onRouteChange={this.onRouteChange}/>
                   <Logo />
-                  <Rank />
+                  <Rank name={this.state.user.name} entries={this.state.user.entries}/>
                   <ImageLinkFrom onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit}/>
                   <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl}/>
                 </div>

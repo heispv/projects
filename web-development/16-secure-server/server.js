@@ -9,7 +9,7 @@ app.use(cors())
 const database = {
   users: [
     {
-      id: '123',
+      id: '1',
       name: 'John',
       email: 'john@gmail.com',
       password: 'cookies',
@@ -17,8 +17,8 @@ const database = {
       joined: new Date()
     },
     {
-      id: '124',
-      name: 'Pey',
+      id: '1',
+      name: 'Peyman',
       email: 'pey@gmail.com',
       password: 'banana',
       entries: 0,
@@ -44,7 +44,7 @@ app.post('/signin', (req, res) => {
     if (req.body.email === database.users[i].email &&
       req.body.password === database.users[i].password) {
         is_found = true;
-        return (res.json('success'));
+        return (res.json(database.users[i]));
       }
   }
   if (!is_found) {
@@ -54,9 +54,9 @@ app.post('/signin', (req, res) => {
 
 app.post('/register', (req, res) => {
   const { email, name, password } = req.body;
-
+  const new_id = database.users.length + 1
   database.users.push({
-    id: '125',
+    id: new_id,
     name: name,
     email: email,
     password: password,
@@ -80,7 +80,7 @@ app.get('/profile/:id', (req, res) => {
   }
 })
 
-app.post('/image', (req, res) => {
+app.put('/image', (req, res) => {
   const { id } = req.body;
   let found = false;
   database.users.forEach(user => {
