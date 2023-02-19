@@ -9,24 +9,25 @@ import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 import './App.css';
 
+const initialState = {
+  input: "",
+  imageUrl: "",
+  box: {},
+  route: "signin",
+  user: {
+    id: '',
+    name: '',
+    email: '',
+    entries: 0,
+    joined: ''
+  }
+}
 
 class App extends React.Component {
 
   constructor() {
     super();
-    this.state = {
-      input: "",
-      imageUrl: "",
-      box: {},
-      route: "signin",
-      user: {
-        id: '',
-        name: '',
-        email: '',
-        entries: 0,
-        joined: ''
-      }
-    }
+    this.state = initialState;
   }
 
   loadUser = (data) => {
@@ -109,6 +110,7 @@ class App extends React.Component {
             .then(entries => {
               this.setState(Object.assign(this.state.user, { entries: entries }))
             })
+            .catch(console.log)
           }
 
           return (response.json())
@@ -118,6 +120,9 @@ class App extends React.Component {
   }
 
   onRouteChange = (route) => {
+    if (route === 'signin') {
+      this.setState(initialState)
+    }
     this.setState({route: route})
   }
     

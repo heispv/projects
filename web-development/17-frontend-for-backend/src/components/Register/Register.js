@@ -36,7 +36,7 @@ class Register extends React.Component {
     .then(user => {
       if (user) {
         this.props.loadUser(user);
-        this.props.onRouteChange('route');
+        this.props.onRouteChange('home');
       }
     })
   }
@@ -46,7 +46,7 @@ class Register extends React.Component {
     return (
       <article className="br3 ba dark-gray b--white-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 white">
-          <form className="measure center">
+          <dev className="measure center">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
               <legend className="f2 fw6 ph0 mh0">Register</legend>
               <div className="mt3">
@@ -88,7 +88,7 @@ class Register extends React.Component {
                 value="Register"
               />
             </div>
-          </form>
+          </dev>
         </main>
       </article>
     );
