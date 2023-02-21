@@ -94,7 +94,6 @@ class App extends React.Component {
         },
         body: raw
     };
-
     fetch("https://api.clarifai.com/v2/models/" + MODEL_ID + "/versions/" + MODEL_VERSION_ID + "/outputs", requestOptions)
         .then(response => {
 
