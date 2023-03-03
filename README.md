@@ -20,8 +20,6 @@ Listed below are a number of projects that I have completed as part of my studie
 ## Reinforcement Learning Projects
 Check out my Reinforcement Learning projects, where you can see how I applied the latest techniques to solve these problems.
 
-### Deep Reinforcement Learning Course by HuggingFace
-
 * [LunarLander Environment](https://github.com/heispv/projects/blob/master/reinforcement-learning/DeepRL_1st_assignment.ipynb): In this project, I employed the PPO model to solve the Lunar Lander environment.
 
 https://user-images.githubusercontent.com/102462222/208900006-d65b6989-303c-4655-8aec-e73bbe234faf.mp4
