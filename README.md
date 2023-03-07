@@ -24,8 +24,6 @@ Check out my Reinforcement Learning projects, where you can see how I applied th
 
 https://user-images.githubusercontent.com/102462222/208900006-d65b6989-303c-4655-8aec-e73bbe234faf.mp4
 
-
-
 * [Blackjack Environment](https://github.com/heispv/projects/blob/master/reinforcement-learning/black_jack.ipynb) : For this project, I employed a simple policy to devise functions that predict the Q-table and then used Epsilon-greedy Monte Carlo control to determine the optimal policy for the environment. The project was my assignment in Udacity's Deep Reinforcement Learning course.
 
 * [Multi Armed Banidt](https://github.com/heispv/projects/tree/master/reinforcement-learning/multi_armed_bandit) : In this Folder I used different methods like [Epsilon greedy](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/epsilon_greedy.ipynb), [Optimistic initial value](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/optimistic_initial_value.ipynb) and [UCB1](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/ucb1.ipynb) to solve the multi armed bandit problem.
