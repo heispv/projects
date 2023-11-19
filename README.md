@@ -9,23 +9,23 @@ Listed below are a number of projects that I have completed as part of my studie
 
 ## Convolutional Neural Networks
 
-* [Steak Pizza](https://github.com/heispv/projects/blob/master/cnn/steak_pizza.ipynb) : I completed a project in which I used TensorFlow to classify pizza and steak images as part of Udemy's Zero to Mastery course. Through this project, I developed and trained number of models to successfully classify these two types of food.
+* [Steak Pizza](https://github.com/heispv/projects/blob/master/machine-learning/cnn/steak_pizza.ipynb) : I completed a project in which I used TensorFlow to classify pizza and steak images as part of Udemy's Zero to Mastery course. Through this project, I developed and trained number of models to successfully classify these two types of food.
 
-* [MNIST](https://github.com/heispv/projects/blob/master/cnn/mnist.ipynb) : As part of my machine learning endeavors, I trained a model to recognize handwritten digits using the well-known MNIST dataset. This project allowed me to gain valuable experience in building and optimizing machine learning models.
+* [MNIST](https://github.com/heispv/projects/blob/master/machine-learning/cnn/mnist.ipynb) : As part of my machine learning endeavors, I trained a model to recognize handwritten digits using the well-known MNIST dataset. This project allowed me to gain valuable experience in building and optimizing machine learning models.
 
-* [CFAR10](https://github.com/heispv/projects/blob/master/cnn/cfar10.ipynb) : I've created a model to classify 10 different classes using the CFAR10 dataset. While the resulting model was fairly simple and didn't achieve a satisfactory level of accuracy, I believe that applying transfer learning techniques could improve its performance.
+* [CFAR10](https://github.com/heispv/projects/blob/master/machine-learning/cnn/cfar10.ipynb) : I've created a model to classify 10 different classes using the CFAR10 dataset. While the resulting model was fairly simple and didn't achieve a satisfactory level of accuracy, I believe that applying transfer learning techniques could improve its performance.
 
-* [Food101](https://github.com/heispv/projects/blob/master/cnn/food101.ipynb) : In this project I used transfer learning to train a model for food classification using the EfficientNetB0 as the base model from TensorFlowHub. To reduce training time, mixed precision techniques have been applied and only trained the feature extraction layer, without fine-tuning the other layers of the network. The final model achieved an accuracy of 70.6% on the test set.
+* [Food101](https://github.com/heispv/projects/blob/master/machine-learning/cnn/food101.ipynb) : In this project I used transfer learning to train a model for food classification using the EfficientNetB0 as the base model from TensorFlowHub. To reduce training time, mixed precision techniques have been applied and only trained the feature extraction layer, without fine-tuning the other layers of the network. The final model achieved an accuracy of 70.6% on the test set.
 
 ## Reinforcement Learning Projects
 Check out my Reinforcement Learning projects, where you can see how I applied the latest techniques to solve these problems.
 
-* [LunarLander Environment](https://github.com/heispv/projects/blob/master/reinforcement-learning/DeepRL_1st_assignment.ipynb): In this project, I employed the PPO model to solve the Lunar Lander environment.
+* [LunarLander Environment](https://github.com/heispv/projects/blob/master/machine-learning/reinforcement-learning/DeepRL_1st_assignment.ipynb): In this project, I employed the PPO model to solve the Lunar Lander environment.
 
 https://user-images.githubusercontent.com/102462222/208900006-d65b6989-303c-4655-8aec-e73bbe234faf.mp4
 
-* [Blackjack Environment](https://github.com/heispv/projects/blob/master/reinforcement-learning/black_jack.ipynb) : For this project, I employed a simple policy to devise functions that predict the Q-table and then used Epsilon-greedy Monte Carlo control to determine the optimal policy for the environment. The project was my assignment in Udacity's Deep Reinforcement Learning course.
+* [Blackjack Environment](https://github.com/heispv/projects/blob/master/machine-learning/reinforcement-learning/black_jack.ipynb) : For this project, I employed a simple policy to devise functions that predict the Q-table and then used Epsilon-greedy Monte Carlo control to determine the optimal policy for the environment. The project was my assignment in Udacity's Deep Reinforcement Learning course.
 
-* [Multi Armed Banidt](https://github.com/heispv/projects/tree/master/reinforcement-learning/multi_armed_bandit) : In this Folder I used different methods like [Epsilon greedy](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/epsilon_greedy.ipynb), [Optimistic initial value](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/optimistic_initial_value.ipynb) and [UCB1](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/ucb1.ipynb) to solve the multi armed bandit problem.
+* [Multi Armed Banidt](https://github.com/heispv/projects/tree/master/machine-learning/reinforcement-learning/multi_armed_bandit) : In this Folder I used different methods like [Epsilon greedy](https://github.com/heispv/projects/blob/master/machine-learning/reinforcement-learning/multi_armed_bandit/epsilon_greedy.ipynb), [Optimistic initial value](https://github.com/heispv/projects/blob/master/machine-learning/reinforcement-learning/multi_armed_bandit/optimistic_initial_value.ipynb) and [UCB1](https://github.com/heispv/projects/blob/master/reinforcement-learning/multi_armed_bandit/ucb1.ipynb) to solve the multi armed bandit problem.
 
-* [Frozen Lake - Q Learning](https://github.com/heispv/projects/tree/master/reinforcement-learning/fronezlake_q_learning.py) : In addressing the Frozen Lake Environment problem, I used the Q-Learning approach in this project.
+* [Frozen Lake - Q Learning](https://github.com/heispv/projects/tree/master/machine-learning/reinforcement-learning/fronezlake_q_learning.py) : In addressing the Frozen Lake Environment problem, I used the Q-Learning approach in this project.
