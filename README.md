@@ -1,5 +1,5 @@
 # Projects
-Listed below are a number of projects that I have completed as part of my studies in machine learning.
+Listed below are a number of projects that I have completed as part of my studies.
 
 # [AI for Medicine: Chest X-Ray Medical Diagnosis](https://github.com/heispv/projects/blob/master/machine-learning/ai_for_medicine/ai_for_medical_diagnosis/first_week_programming_assignment/C1_W1_Assignment.ipynb)
 
@@ -14,6 +14,7 @@ In this segment of the "AI for Medicine" course, I developed a deep learning sys
 
 This project showcases the application of advanced deep learning techniques in medical image analysis, offering insights into AI-driven diagnostics in healthcare.
 
+---
 
 # [Brain Tumor Auto-Segmentation for Magnetic Resonance Imaging (MRI)](https://github.com/heispv/projects/blob/master/machine-learning/ai_for_medicine/ai_for_medical_diagnosis/third_week_programming_assignment/C1_W3_Assignment.ipynb)
 This project, as part of the "Artificial Intelligence for Medicine" course, involves developing a neural network to segment brain tumors from MRI scans. It encompasses understanding MRI, preprocessing techniques including normalization and patch extraction, and building and evaluating a 3D U-Net model.
@@ -33,6 +34,8 @@ This project, as part of the "Artificial Intelligence for Medicine" course, invo
 
 This project provided valuable experience in medical image analysis, from data preparation to deep learning implementation and evaluation in the context of medical imaging.
 
+---
+
 # Convolutional Neural Networks Portfolio
 
 ### [Food101 Classification with Transfer Learning](https://github.com/heispv/projects/blob/master/machine-learning/cnn/food101.ipynb)
@@ -48,6 +51,8 @@ Trained a model to recognize handwritten digits using the MNIST dataset. This pr
 Created a model to classify images into 10 different categories using the CFAR10 dataset. Despite its simplicity and moderate accuracy, this project highlighted the potential for enhancement through transfer learning techniques.
 
 Each project offered a unique challenge and learning experience in the realm of image classification, deepening my understanding and proficiency in convolutional neural networks and their applications.
+
+---
 
 ## Reinforcement Learning Portfolio
 
