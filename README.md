@@ -39,7 +39,12 @@ This project provided valuable experience in medical image analysis, from data p
 ## Convolutional Neural Networks Portfolio
 
 ### [Food101 Classification with Transfer Learning](https://github.com/heispv/projects/blob/master/machine-learning/cnn/food101.ipynb)
-Implemented a food classification model using EfficientNetB0 from TensorFlowHub, applying transfer learning and mixed precision training. This approach focused on training the feature extraction layer, achieving an accuracy of 70.6% on the test set.
+In this project, I addressed the challenge of classifying 101 different food categories. The approach involved leveraging the EfficientNetB0 model as the foundational architecture. Key steps in this process included:
+* Data Preprocessing: Thorough preparation and preprocessing of the dataset were essential to ensure compatibility with the EfficientNetB0 model.
+* Feature Extraction Layer Addition: I augmented the model with a new feature extraction layer to specifically adapt to the food classification task.
+* Mixed Precision Training: To optimize computational performance, I employed Mixed Precision training. This technique significantly accelerated the training process without compromising the model's effectiveness.
+
+*By fine-tuning the model and using learning rate decay, we can see a much better performance of the model*
 
 ### [Steak vs. Pizza Classification](https://github.com/heispv/projects/blob/master/machine-learning/cnn/steak_pizza.ipynb)
 Developed a TensorFlow-based image classification model to differentiate between pizza and steak images. This project, a part of the Udemy's Zero to Mastery course, involved experimenting with several model architectures to achieve successful classification.
