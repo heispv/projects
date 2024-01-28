@@ -55,7 +55,7 @@ Each project offered a unique challenge and learning experience in the realm of 
 ### [LunarLander Environment with PPO](https://github.com/heispv/projects/blob/master/machine-learning/reinforcement_learning/DeepRL_1st_assignment.ipynb)
 Implemented the Proximal Policy Optimization (PPO) model to successfully navigate the Lunar Lander environment. This project demonstrates the application of advanced reinforcement learning techniques in a complex simulation.
 
-https://user-images.githubusercontent.com/102462222/208900006-d65b6989-303c-4655-8aec-e73bbe234faf.mp4
+![lunar](https://github.com/heispv/projects/assets/102462222/8a25c4d7-d204-44de-89ae-110cdddc06a7)
 
 ### [Blackjack Strategy with Monte Carlo Control](https://github.com/heispv/projects/blob/master/machine-learning/reinforcement_learning/black_jack.ipynb)
 Developed a reinforcement learning solution for the Blackjack environment using Epsilon-greedy Monte Carlo control. This project, part of Udacity's Deep Reinforcement Learning course, focused on formulating and optimizing policies for decision-making in a card game context.
