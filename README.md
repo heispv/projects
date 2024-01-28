@@ -1,5 +1,5 @@
 # Projects
-Listed below are a number of projects that I have completed as part of my studies in machine learning. These projects showcase my skills and knowledge in this field.
+Listed below are a number of projects that I have completed as part of my studies in machine learning.
 
 # [AI for Medicine: Chest X-Ray Medical Diagnosis](https://github.com/heispv/projects/blob/master/machine-learning/ai_for_medicine/ai_for_medical_diagnosis/first_week_programming_assignment/C1_W1_Assignment.ipynb)
 
