@@ -18,8 +18,7 @@ This project showcases the application of advanced deep learning techniques in m
 # [Brain Tumor Auto-Segmentation for Magnetic Resonance Imaging (MRI)](https://github.com/heispv/projects/blob/master/machine-learning/ai_for_medicine/ai_for_medical_diagnosis/third_week_programming_assignment/C1_W3_Assignment.ipynb)
 This project, as part of the "Artificial Intelligence for Medicine" course, involves developing a neural network to segment brain tumors from MRI scans. It encompasses understanding MRI, preprocessing techniques including normalization and patch extraction, and building and evaluating a 3D U-Net model.
 
-![brain](https://github.com/heispv/projects/assets/102462222/d61fee29-fbfa-4c2e-848f-b75d0ade9e69)
-
+![brain3](https://github.com/heispv/projects/assets/102462222/2b531a2f-b0d8-4bc0-a180-d6c4c651b46d)
 
 ## Key Learnings
 - Explored MRI as a key medical imaging tool.
