@@ -1,7 +1,7 @@
 # Projects
 Listed below are a number of projects that I have completed as part of my studies in machine learning. These projects showcase my skills and knowledge in this field.
 
-# AI for Medicine: Chest X-Ray Medical Diagnosis
+# [AI for Medicine: Chest X-Ray Medical Diagnosis](https://github.com/heispv/projects/blob/master/machine-learning/ai_for_medicine/ai_for_medical_diagnosis/first_week_programming_assignment/C1_W1_Assignment.ipynb)
 
 In this segment of the "AI for Medicine" course, I developed a deep learning system for diagnosing chest X-rays. Utilizing a real-world X-ray dataset, the project involved data preprocessing and implementing transfer learning with a DenseNet model for image classification. Key aspects of the project include:
 
@@ -15,8 +15,10 @@ In this segment of the "AI for Medicine" course, I developed a deep learning sys
 This project showcases the application of advanced deep learning techniques in medical image analysis, offering insights into AI-driven diagnostics in healthcare.
 
 
-# Brain Tumor Auto-Segmentation for Magnetic Resonance Imaging (MRI)
+# [Brain Tumor Auto-Segmentation for Magnetic Resonance Imaging (MRI)](https://github.com/heispv/projects/blob/master/machine-learning/ai_for_medicine/ai_for_medical_diagnosis/third_week_programming_assignment/C1_W3_Assignment.ipynb)
 This project, as part of the "Artificial Intelligence for Medicine" course, involves developing a neural network to segment brain tumors from MRI scans. It encompasses understanding MRI, preprocessing techniques including normalization and patch extraction, and building and evaluating a 3D U-Net model.
+
+
 
 ## Key Learnings
 - Explored MRI as a key medical imaging tool.
